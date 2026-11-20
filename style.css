@@ -1,0 +1,40 @@
+:root {
+  --bg: #fff8f0;
+  --heading: darkgoldenrod;
+  --text: #2d3436;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--bg);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main {
+  width: 750px;
+  margin: auto;
+}
+.title {
+  text-align: center;
+  color: var(--heading);
+  font-size: 40px;
+  margin: 50px 0 40px;
+}
+.recipe-list {
+  padding: 40px;
+  font-size: 22px;
+  list-style: circle inside;
+}
+li {
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
